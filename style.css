@@ -1,0 +1,73 @@
+.header-wrapper {
+    width: 90%;
+}
+.header-container {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    
+    margin-top: 40px;
+    height: 18vh;
+}
+.index-header-line {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-width: 0;
+    margin: auto;
+    
+}
+.name-container {
+    width: 28%;
+    text-align: center;
+    font-family: "Arial";
+    font-size: xx-large;
+   
+}
+.line-wrapper {
+    width: 60%;
+}
+.line-container {
+    width: 100%;
+}
+
+.mid-sec-wrapper {
+    height: 50vh;
+    width: 90%;
+}
+.footer-wrapper {
+    width: 90%;
+
+}
+.footer-container {
+   
+    height: 22vh;
+    display: flex;
+    flex-direction: row;
+}
+.heading-container {
+    font-family: "Helvetica";
+    font-size: xxx-large;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.buttons-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;;
+    
+}
+.heading {
+    
+}
+.skill-button-container, .contact-button-container{
+    width: 50%;
+}
+.skill-button-container {}
+button {
+    width: 80%;
+    height: 6vh;
+}
