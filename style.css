@@ -1,5 +1,6 @@
 .header-wrapper {
     width: 90%;
+    margin: 0 auto;
 }
 .header-container {
     display: flex;
@@ -34,9 +35,13 @@
 .mid-sec-wrapper {
     height: 50vh;
     width: 90%;
+    margin: 0 auto;
+
 }
 .footer-wrapper {
     width: 90%;
+    margin: 0 auto;
+
 
 }
 .footer-container {
@@ -45,11 +50,10 @@
     display: flex;
     flex-direction: row;
 }
+
 .heading-container {
     font-family: "Helvetica";
     font-size: xxx-large;
-    text-align: center;
-    align-items: center;
     justify-content: center;
     width: 50%;
 }
@@ -58,16 +62,11 @@
     flex-direction: row;
     align-items: center;
     width: 50%;;
+    justify-content: space-between;
     
 }
-.heading {
-    
-}
-.skill-button-container, .contact-button-container{
-    width: 50%;
-}
-.skill-button-container {}
+
 button {
-    width: 80%;
     height: 6vh;
+    width: 400px;
 }
