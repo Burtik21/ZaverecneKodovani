@@ -1,14 +1,19 @@
 .header-wrapper {
     width: 90%;
     margin: 0 auto;
+    border: 2px solid red;
 }
 .header-container {
     display: flex;
     flex-direction:row;
     align-items: center;
-    
     margin-top: 40px;
     height: 18vh;
+    border: 2px solid green;
+
+}
+.contact-header-container {
+    justify-content: space-between;
 }
 .index-header-line {
     height: 3px;
@@ -23,24 +28,32 @@
     text-align: center;
     font-family: "Arial";
     font-size: xx-large;
+    border: 2px solid green;
+
    
 }
 .line-wrapper {
     width: 60%;
+    border: 2px solid red;
 }
 .line-container {
-    width: 100%;
+    width: 25%;
 }
+
 
 .mid-sec-wrapper {
     height: 50vh;
     width: 90%;
     margin: 0 auto;
+    border: 2px solid blue;
+
 
 }
 .footer-wrapper {
     width: 90%;
     margin: 0 auto;
+    border: 2px solid red;
+
 
 
 }
@@ -49,14 +62,30 @@
     height: 22vh;
     display: flex;
     flex-direction: row;
-}
+    border: 2px solid green;
 
+}
+.adj-footer-contact {
+    width: 50%;
+}
+.heading-container-contact {
+    font-family: "Helvetica";
+    font-size: xxx-large;
+    justify-content: center;
+    
+    border: 2px solid green;
+
+}
 .heading-container {
     font-family: "Helvetica";
     font-size: xxx-large;
     justify-content: center;
     width: 50%;
+    border: 2px solid green;
+
 }
+
+
 .buttons-wrapper {
     display: flex;
     flex-direction: row;
@@ -68,5 +97,26 @@
 
 button {
     height: 6vh;
-    width: 400px;
+    width: 300px;
+    border: 0px;
+}
+.button-text {
+    font-weight: 600;
+    font-family: "Helvetica";
+    font-size: x-large;
+    margin: 0;
+}
+.questions-ul li {
+    font-weight: 600;
+    font-family: "Helvetica";
+    font-size: xx-large;
+    margin-bottom: 20px;
+
+    
+    
+}
+.questions-ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
 }
