@@ -65,9 +65,7 @@
     border: 2px solid green;
 
 }
-.adj-footer-contact {
-    width: 50%;
-}
+
 .heading-container-contact {
     font-family: "Helvetica";
     font-size: xxx-large;
@@ -115,8 +113,28 @@ button {
     
     
 }
+.adj-footer-contact {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
 .questions-ul {
     list-style-type: none;
     padding: 0;
     margin-top: 40px;
+}
+.email-container, .tel-container {
+    width: 50%;
+}
+
+.contact-heading-style h3 {
+    font-weight: 600;
+    font-size: xx-large;
+    font-family: "Helvetica";
+}
+.contact-heading-style p {
+    font-size: x-large;
+}
+.tel-container {
+    margin-left: 200px
 }
