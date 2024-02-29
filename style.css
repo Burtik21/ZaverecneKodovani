@@ -39,13 +39,26 @@
 }
 
 
-.mid-sec-wrapper {
+.mid-sec-wrapper, .mid-sec-wrapper-contact {
     height: 50vh;
     width: 90%;
     margin: 0 auto;
     border: 2px solid blue;
 
 
+}
+.mid-sec-wrapper-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-holder-index {
+    width: 600px;
+}
+.image-index {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
 }
 .footer-wrapper {
     width: 90%;
