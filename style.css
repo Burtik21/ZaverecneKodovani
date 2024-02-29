@@ -218,7 +218,40 @@ button {
             gap: 50px;
             width: 100%;
             flex-direction: column;
-            margin-top: ;
+            margin-top: 20px;
         }
-    
+        .mid-sec-wrapper-contact {
+            flex-direction: column;
+            height: auto;        
+        }
+        .questions-list-container {
+            width: 100%;
+        }
+        .heading-container-contact {
+            font-size: xx-large;
+        }
+        
+        .mid-sec-wrapper-contact {
+            margin-top: 50px;
+        }
+        .image-container-contact {
+            width: 100%;
+        } 
+        .footer-container {
+            flex-direction: column;
+        }
+        .contact-heading-style {
+            width: 100%;
+        }
+        .email-container, .tel-container {
+            width: 100%;
+            margin: 0;
+                }
+        .adj-footer-contact {
+            width: 100%;
+        }   
+        .back-button-contact {
+            margin-top: 100px;
+            margin-left: 80%;
+        } 
 }
