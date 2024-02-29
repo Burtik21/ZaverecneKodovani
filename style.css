@@ -48,7 +48,11 @@
 
 }
 .mid-sec-wrapper-contact {
-    display: flex;
+    display:flex;
+    flex-direction: row;
+}
+.mid-sec-wrapper{
+     display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -118,7 +122,7 @@ button {
 .questions-ul li {
     font-weight: 600;
     font-family: "Helvetica";
-    font-size: xx-large;
+    font-size: xxx-large;
     margin-bottom: 20px;
 
     
@@ -149,4 +153,16 @@ button {
 }
 .tel-container {
     margin-left: 200px
+}
+.questions-list-container {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+.image-container-contact {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
