@@ -124,10 +124,11 @@ button {
     font-family: "Helvetica";
     font-size: xxx-large;
     margin-bottom: 20px;
-
-    
     
 }
+
+
+
 .adj-footer-contact {
     width: 50%;
     display: flex;
@@ -139,6 +140,12 @@ button {
     margin-top: 40px;
     border: 2px solid green;    
 }
+
+.questions-list-container {
+    list-style-type: disc;
+    justify-content: center;
+}
+
 .email-container, .tel-container {
     width: 50%;
 }
